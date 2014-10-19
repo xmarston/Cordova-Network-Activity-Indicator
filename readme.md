@@ -19,14 +19,15 @@ The plugin creates the object cordova.plugins.NetworkActivityIndicator with the 
 1. [cordova.plugins.NetworkActivityIndicator.start][start]
 2. [cordova.plugins.NetworkActivityIndicator.stop][stop]
 
-[start] ### Start the network activity indicator
+### Start the network activity indicator
     cordova.plugins.NetworkActivityIndicator.start();
     
-[stop] ### Stop the network activity indicator
+### Stop the network activity indicator
     cordova.plugins.NetworkActivityIndicator.stop();
     
 # Screenshoot
 ![image](https://github.com/xmarston/cordova-network-activity-indicator/blob/master/NetworkActivityIndicator.jpg)
 
-
+[start]: #start-the-network-activity-indicator
+[stop]: #stop-the-network-activity-indicator
 
