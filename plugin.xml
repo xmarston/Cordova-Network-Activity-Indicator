@@ -29,7 +29,7 @@
     </config-file>
     
     <header-file src="src/ios/Bridging-Header.h" />
-    <source-file src="src/ios/NetworActivityIndicator.swift"/>
+    <source-file src="src/ios/NetworkActivityIndicator.swift"/>
   </platform>
 
 </plugin>
