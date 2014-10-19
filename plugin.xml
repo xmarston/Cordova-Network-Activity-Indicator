@@ -3,7 +3,7 @@
         id="es.dev-coders.network-activity-indicator"
         version="1.0.0">
 
-  <name>Network Activity Indicator ID</name>
+  <name>Network Activity Indicator</name>
 
   <description>
     Show a network activity indicator for your cordova iOS apps to let the user know when the app is using the network
