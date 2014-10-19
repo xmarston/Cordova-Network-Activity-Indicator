@@ -15,19 +15,20 @@
     <engine name="cordova" version=">=3.0.0"/>
   </engines>
 
-  <js-module src="www/NetworkActivity.js" name="NetworkActivity">
-    <clobbers target="cordova.plugins.NetworkActivity" />
+  <js-module src="www/NetworkActivityIndicator.js" name="NetworkActivityIndicator">
+    <clobbers target="cordova.plugins.NetworkActivityIndicator" />
   </js-module>
 
   <!-- ios -->
   <platform name="ios">
 
     <config-file target="config.xml" parent="/*">
-      <feature name="NetworkActivity">
-        <param name="ios-package" value="NetworkActivity"/>
+      <feature name="NetworkActivityIndicator">
+        <param name="ios-package" value="NetworkActivityIndicator"/>
       </feature>
     </config-file>
-
+    
+    <header-file src="src/ios/Bridging-Header.h" />
     <source-file src="src/ios/NetworActivity.swift"/>
   </platform>
 

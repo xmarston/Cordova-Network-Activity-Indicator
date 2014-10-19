@@ -1,5 +1,5 @@
 //
-//  NetworkActivity.swift
+//  NetworkActivityIndicator.swift
 //  VirtualSouvenirs
 //
 //  Created by Ricardo Cámara on 19/10/14.
@@ -9,7 +9,7 @@
 import Foundation
 
 
-@objc(NetworkActivity) class NetworkActivity : CDVPlugin {
+@objc(NetworkActivityIndicator) class NetworkActivityIndicator : CDVPlugin {
     /*func echo(command: CDVInvokedUrlCommand) {
         var message = command.arguments[0] as String
         
