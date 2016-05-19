@@ -1,6 +1,5 @@
 //
 //  NetworkActivityIndicator.swift
-//
 //  Created by Ricardo Cámara on 19/10/14.
 //
 //
