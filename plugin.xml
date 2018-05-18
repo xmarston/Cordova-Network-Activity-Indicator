@@ -11,10 +11,6 @@
 
   <license>MIT</license>
 
-  <engines>
-    <engine name="cordova" version=">=3.0.0"/>
-  </engines>
-
   <js-module src="www/NetworkActivityIndicator.js" name="NetworkActivityIndicator">
     <clobbers target="cordova.plugins.NetworkActivityIndicator" />
   </js-module>
