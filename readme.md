@@ -3,7 +3,7 @@ Show a network activity indicator for your cordova iOS apps to let the user know
 
 ## Installation
 
-    $ cordova plugin add https://github.com/xmarston/cordova-network-activity-indicator
+    $ cordova plugin add https://github.com/seifscape/cordova-network-activity-indicator
 
 When installation is complete, open Xcode
 
