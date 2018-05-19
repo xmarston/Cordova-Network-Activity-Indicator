@@ -31,7 +31,6 @@
     
     <header-file src="src/ios/Bridging-Header.h" />
     <source-file src="src/ios/NetworkActivityIndicator.swift"/>
-    <preference name="UseLegacySwiftLanguageVersion" value="true" />
   </platform>
 
 </plugin>
