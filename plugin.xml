@@ -10,14 +10,19 @@
   </description>
 
   <license>MIT</license>
-
+   <repo>https://github.com/seifscape/cordova-network-activity-indicator.git</repo>
+   <issue>https://github.com/seifscape/cordova-network-activity-indicator/issues</issue>
+        
+   <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+   </engines>
+        
   <js-module src="www/NetworkActivityIndicator.js" name="NetworkActivityIndicator">
     <clobbers target="cordova.plugins.NetworkActivityIndicator" />
   </js-module>
 
   <!-- ios -->
   <platform name="ios">
-
     <config-file target="config.xml" parent="/*">
       <feature name="NetworkActivityIndicator">
         <param name="ios-package" value="NetworkActivityIndicator"/>
