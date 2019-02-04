@@ -29,8 +29,9 @@
       </feature>
     </config-file>
     
-    <header-file src="src/ios/Bridging-Header.h" />
+    <header-file src="src/ios/NetworkActivityIndicator-Bridging-Header.h" />
     <source-file src="src/ios/NetworkActivityIndicator.swift"/>
+    <dependency id="cordova-plugin-add-swift-support" version="1.7.2"/>
   </platform>
 
 </plugin>
