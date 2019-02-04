@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seifscape/cordova-network-activity-indicator.git"
+    "url": "git+https://github.com/xmarston/cordova-network-activity-indicator.git"
   },
   "keywords": [
     "Cordova",
@@ -29,10 +29,10 @@
       "version": ">=3.0.0"
     }
   ],
-  "author": "seifscape",
+  "author": "xmarston",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seifscape/cordova-network-activity-indicator/issues"
+    "url": "https://github.com/xmarston/cordova-network-activity-indicator/issues"
   },
-  "homepage": "https://github.com/seifscape/cordova-network-activity-indicatorr#readme"
+  "homepage": "https://github.com/xmarston/cordova-network-activity-indicatorr#readme"
 }
