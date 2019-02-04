@@ -9,10 +9,10 @@ import Foundation
 
 @objc(NetworkActivityIndicator) class NetworkActivityIndicator : CDVPlugin {
     func start(command: CDVInvokedUrlCommand) {
-        UIApplication.sharedApplication().networkActivityIndicatorVisible = true
+        UIApplication.shared.networkActivityIndicatorVisible = true
     }
     
     func stop(command: CDVInvokedUrlCommand) {
-        UIApplication.sharedApplication().networkActivityIndicatorVisible = false
+        UIApplication.shared.networkActivityIndicatorVisible = false
     }
 }
