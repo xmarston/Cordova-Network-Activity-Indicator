@@ -17,7 +17,7 @@ The plugin creates the object cordova.plugins.NetworkActivityIndicator with the 
 ### Stop the network activity indicator
     cordova.plugins.NetworkActivityIndicator.stop();
     
-# Screenshoot
+# Screenshot
 ![image](https://github.com/xmarston/cordova-network-activity-indicator/blob/master/NetworkActivityIndicator.jpg)
 
 [start]: #start-the-network-activity-indicator
