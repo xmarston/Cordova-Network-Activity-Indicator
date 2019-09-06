@@ -1,16 +1,22 @@
-var argscheck = require('cordova/argscheck'),
-	utils = require('cordova/utils'),
-	exec = require('cordova/exec');
+const exec = require('cordova/exec');
 
-var NetworkActivityIndicator = function() {
+class NetworkActivityIndicator {
+	start () {
+		return callbackExec("start", []);
+	}
+
+	stop () {
+		return callbackExec("stop", []);
+	}
+}
+
+const pluginName = NetworkActivityIndicator.name;
+
+const callbackExec = (method, params) => {
+	return new Promise((resolve, reject) => {
+        const cb = (err, data) => err ? reject(new Error(err)) : resolve(data);
+        exec(cb.bind(null, undefined), cb, pluginName, method, params);
+	})
 };
 
-NetworkActivityIndicator.start = function() {
-	exec(null, null, "NetworkActivityIndicator", "start", []);
-};
-
-NetworkActivityIndicator.stop = function() {
-	exec(null, null, "NetworkActivityIndicator", "stop", []);
-};
-
-module.exports = NetworkActivityIndicator;
+module.exports = new NetworkActivityIndicator();

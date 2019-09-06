@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="es.dev-coders.network-activity-indicator"
+        id="cordova-network-activity-indicator"
         version="0.0.1">
 
   <name>Network Activity Indicator</name>
@@ -10,26 +10,28 @@
   </description>
 
   <license>MIT</license>
-
-  <engines>
-    <engine name="cordova" version=">=3.0.0"/>
-  </engines>
-
+   <repo>https://github.com/xmarston/cordova-network-activity-indicator.git</repo>
+   <issue>https://github.com/xmarston/cordova-network-activity-indicator/issues</issue>
+        
+   <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+   </engines>
+        
   <js-module src="www/NetworkActivityIndicator.js" name="NetworkActivityIndicator">
     <clobbers target="cordova.plugins.NetworkActivityIndicator" />
   </js-module>
 
   <!-- ios -->
   <platform name="ios">
-
     <config-file target="config.xml" parent="/*">
       <feature name="NetworkActivityIndicator">
         <param name="ios-package" value="NetworkActivityIndicator"/>
       </feature>
     </config-file>
     
-    <header-file src="src/ios/Bridging-Header.h" />
+    <header-file src="src/ios/NetworkActivityIndicator-Bridging-Header.h" />
     <source-file src="src/ios/NetworkActivityIndicator.swift"/>
+    <dependency id="cordova-plugin-add-swift-support" version=">=1.7.2"/>
   </platform>
 
 </plugin>
